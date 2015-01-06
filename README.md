@@ -1,0 +1,4 @@
+Composite
+=========
+
+Simple composite example
