@@ -11,7 +11,7 @@ public class Main {
 		
 		IPricingStrategy simple  = new SimplePricingStrategy(TOTAL);
 		IPricingStrategy vsimple = new VerySimplePricingStrategy(TOTAL);
-		ComplexPricingStrategy complex = new ComplexPricingStrategy();
+		CompositePricingStrategy complex = new CompositePricingStrategy();
 		
 		complex.addPricingStrategy(simple);
 		complex.addPricingStrategy(vsimple);

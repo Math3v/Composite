@@ -2,7 +2,7 @@ package main;
 
 import java.util.ArrayList;
 
-public class ComplexPricingStrategy implements IPricingStrategy {
+public class CompositePricingStrategy implements IPricingStrategy {
 	
 	private ArrayList<IPricingStrategy> strategies = new ArrayList<IPricingStrategy>();
 	
